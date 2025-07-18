@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-team-builder-app",
+  "version": "1.0.0",
+  "description": "Pokemon Team Builder App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zchapman24/Pokemon-Team-Builder.git"
+  },
+  "keywords": [
+    "pokemon",
+    "team",
+    "builder"
+  ],
+  "author": "Zak Chapman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zchapman24/Pokemon-Team-Builder/issues"
+  },
+  "homepage": "https://github.com/zchapman24/Pokemon-Team-Builder#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
