@@ -43,7 +43,7 @@ addToTeam.addEventListener("click", () => {
   document.getElementById(`team-name-${slotNum}`).textContent = name;
   document.getElementById(`team-type-${slotNum}`).textContent = type;
   document.getElementById("pokemon-info").style.display = "none";
-
+  document.getElementById(`slot-${slotNum}`).style.display = 'block';
 });
 
 function displayPokemonInfo(data) {
