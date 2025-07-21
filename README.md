@@ -29,8 +29,11 @@ VS Code (or any IDE that can run extensions)
 Live Server extension
 
 To Run Locally
-Download or clone this repository.
+Download or clone this repository: https://github.com/zchapman24/Pokemon-Team-Builder.git
+npm init
+npm install
 Run index.html with live server in your browser.
+
 
 Credits
 Built by Zak Chapman for Supra Coders project
