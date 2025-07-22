@@ -16,7 +16,7 @@ addButton.addEventListener("click", () => {
 
   fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`) //fetch API request searching for pokemon name
   .then((response) => {
-    if (!response.ok) alert("Pokemon not found!"); //if the response isnt OK, throws an error
+    if (!response.ok) alert("Brother, Pokemon not found!"); //if the response isnt OK, throws an error
     return response.json(); //if response is OK, gets the data in JSON format
   })
   .then((data) => {
@@ -33,7 +33,7 @@ addToTeam.addEventListener("click", () => { //Clicking "Add to Team" reads curre
   const type = document.getElementById("pokemon-type").textContent;
 
   if (team.length >= 6) {
-    alert("You can only have 6 Pokemon on your team!"); //When trying to add more than 6 pokemon, an alert will display stopping you from adding more
+    alert("Not in my house! You can only have 6 Pokemon on your team!"); //When trying to add more than 6 pokemon, an alert will display stopping you from adding more
   }
   team.push({ name, img, type }); //adds the pokemon info as an object to the empty team array
 
