@@ -1,42 +1,41 @@
-Pokemon Team Builder
+Pokemon Team Builder:
 A simple web app that lets you search for Pokémon and build a team of up to 6, using live data from the PokéAPI.
 
-Features
+Features:
 Search for any Pokémon by name
 
 See its type and battle stats
 
 Add Pokémon to your team (max 6, no duplicates)
 
-How to Use
-Enter a Pokémon’s name in the search box (e.g. “pikachu”).
+Instructions:
+1. Enter a Pokémon’s name in the search box (e.g. “pikachu”).
 
-Click Add to see its info card.
+2. Click Add to see its info card.
 
-Click Add to Team to place it in your lineup.
+3. Click Add to Team to place it in your lineup.
 
-Repeat to build your full team!
+4. Repeat to build your full team!
 
-Tech Stack
+Tech Stack:
 HTML/CSS for layout and style
 
 JavaScript for logic and API calls
 
 PokéAPI for Pokémon data
 
-Dependencies / Requirements
+Dependencies / Requirements:
 VS Code (or any IDE that can run extensions)
 Live Server extension
 
-To Run Locally
+To Run Locally:
 Download or clone this repository: https://github.com/zchapman24/Pokemon-Team-Builder.git
-npm init
 npm install
 Run index.html with live server in your browser.
 
 
 Credits
-Built by Zak Chapman for Supra Coders project
+Built by Zak Chapman for Supra Coders project 1
 
 Powered by PokéAPI
 
